@@ -96,3 +96,34 @@
     .social-icons i:hover {
       color: #00bfff;
     }
+
+
+     header {
+      background-color: #001f3f;
+      color: white;
+      padding: 20px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .site-title {
+      font-size: 28px;
+      font-weight: bold;
+    }
+
+    nav {
+      display: flex;
+      gap: 30px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: 500;
+      transition: color 0.3s ease;
+    }
+
+    nav a:hover {
+      color: #4ef0e4;
+    }
